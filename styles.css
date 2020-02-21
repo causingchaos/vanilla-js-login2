@@ -1,0 +1,24 @@
+body{
+    background:grey;
+}
+
+.form-container {
+    background: white;
+    width: 650px;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-container h1{
+    text-align: center;
+}
+.password-requirements {
+    width: 450px;
+    margin: auto;
+    margin-top: 25px;
+}
+.fullfilled-symbol{
+    /* display: inline */
+}
+.fullfilled-symbol:after{
+    content: 'X';
+}
