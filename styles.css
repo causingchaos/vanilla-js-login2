@@ -17,8 +17,22 @@ body{
     margin-top: 25px;
 }
 .fullfilled-symbol{
-    /* display: inline */
+     display: inline;
 }
 .fullfilled-symbol:after{
     content: 'X';
+}
+.requirement{
+    color: red;
+    font-size: 14px;
+    font-weight: 600;
+}
+.fullfilled{
+    color: green;
+}
+.fullfilled .fullfilled-symbol:after{
+    content: '\2713'
+}
+#submitBtn:disabled{
+    cursor: not-allowed;
 }
